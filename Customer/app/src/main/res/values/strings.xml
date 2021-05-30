@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Vásárló</string>
+    <string name="reg_title">Új vásárló</string>
+    <string name="Name">Név</string>
+    <string name="ID">ID</string>
+    <string name="Status">Státusz</string>
+    <string name="Status_reason">Státusz oka</string>
+    <string name="reg">Regisztráció</string>
+    <string name="menu">Menü</string>
+    <string name="customers">Vevők</string>
+    <string name="new_customer">Új vevő</string>
+    <string name="back">Vissza</string>
+    <string name="valid_start">Érvényes időszak kezdete</string>
+    <string name="valid_end">Érvényes időszak vége</string>
+    <string name="email">E-mail cím</string>
+    <string name="log">Bejelentkezés</string>
+    <string name="pass">Jelszó</string>
+    <string name="modify">Módosít</string>
+    <string name="delete">Töröl</string>
+    <string-array name="engaged_party">
+        <item>Egyéni</item>
+        <item>Szervezet</item>
+    </string-array>
+    <string-array name="status">
+        <item>Jóváhagyott</item>
+        <item>Várakoztatott</item>
+        <item>Elutasított</item>
+    </string-array>
+
+    <string-array name="payment">
+        <item>Kártyás</item>
+        <item>Készpénzes</item>
+        <item>PayPal</item>
+    </string-array>
+
+    <string-array name="t_names">
+        <item>Nagy János</item>
+        <item>Szekeres Károly</item>
+        <item>Ferenczi Katalin</item>
+        <item>Nagy István</item>
+        <item>Kiss János</item>
+        <item>Fekete Piroska</item>
+        <item>Keszeg Ádám</item>
+        <item>Nagy Ilona</item>
+    </string-array>
+
+    <string-array name="t_status">
+        <item>Jóváhagyott</item>
+        <item>Várakoztatott</item>
+        <item>Jóváhagyott</item>
+        <item>Várakoztatott</item>
+        <item>Jóváhagyott</item>
+        <item>Várakoztatott</item>
+        <item>Jóváhagyott</item>
+        <item>Elutasított</item>
+    </string-array>
+
+    <string-array name="t_status_re">
+        <item>Minden OK</item>
+        <item>Még nem tiszta</item>
+        <item>Minden OK</item>
+        <item>Még nem tiszta</item>
+        <item>Minden OK</item>
+        <item>Még nem tiszta</item>
+        <item>Minden OK</item>
+        <item>Késés</item>
+    </string-array>
+
+    <string-array name="t_start">
+        <item>2021-01-01</item>
+        <item>2021-02-02</item>
+        <item>2021-01-01</item>
+        <item>2021-03-02</item>
+        <item>2021-02-01</item>
+        <item>2021-04-23</item>
+        <item>2021-01-01</item>
+        <item>2021-03-12</item>
+    </string-array>
+
+    <string-array name="t_end">
+        <item>2021-01-04</item>
+        <item>2021-02-06</item>
+        <item>2021-01-04</item>
+        <item>2021-03-06</item>
+        <item>2021-02-10</item>
+        <item>2021-04-26</item>
+        <item>2021-01-04</item>
+        <item>2021-03-20</item>
+    </string-array>
+
+    <string-array name="t_party">
+        <item>Egyéni</item>
+        <item>Szervezet</item>
+        <item>Szervezet</item>
+        <item>Egyéni</item>
+        <item>Szervezet</item>
+        <item>Egyéni</item>
+        <item>Szervezet</item>
+        <item>Egyéni</item>
+    </string-array>
+
+    <string-array name="t_payment">
+        <item>Kártyás</item>
+        <item>Kártyás</item>
+        <item>Kártyás</item>
+        <item>Készpénzes</item>
+        <item>Készpénzes</item>
+        <item>Készpénzes</item>
+        <item>Készpénzes</item>
+        <item>Készpénzes</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/regTitle"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_b_50"
+        android:text="@string/reg"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/regTitle"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/regEmail"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/pass" />
+
+    <Button
+        android:id="@+id/regButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:layout_below="@id/regPass"
+        android:text="@string/reg"
+        android:onClick="register"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

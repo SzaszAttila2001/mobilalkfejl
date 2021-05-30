@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99AAB5">
+
+        <TextView
+            android:id="@+id/cusName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_b_20"
+            android:padding="8dp"
+            android:text="Név"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorSecondary"
+            />
+
+
+        <TextView
+            android:id="@+id/cusStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cusName"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:text="@string/Status" />
+
+        <TextView
+            android:id="@+id/cusStatusRe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cusStatus"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:text="@string/Status_reason" />
+
+        <TextView
+            android:id="@+id/itemStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cusStatusRe"
+            android:textStyle="italic"
+            android:padding="8dp"
+            android:text="@string/valid_start" />
+
+        <TextView
+            android:id="@+id/itemEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cusStatusRe"
+            android:layout_toEndOf="@+id/itemStart"
+            android:textStyle="italic"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:text="@string/valid_end" />
+
+        <TextView
+            android:id="@+id/itemPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemEnd"
+            android:layout_marginEnd="10dp"
+            android:padding="8dp"
+            android:text="Payment" />
+        <TextView
+            android:id="@+id/itemParty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemEnd"
+            android:layout_toEndOf="@id/itemPayment"
+            android:padding="8dp"
+            android:text="Party" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemPayment"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/modify_customer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/modify" />
+
+            <Button
+                android:id="@+id/delete_customer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="@dimen/margin_b_20"
+                android:text="@string/delete" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

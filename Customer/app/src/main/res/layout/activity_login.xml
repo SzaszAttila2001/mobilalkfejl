@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/logTitle"
+        style="@style/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log"
+        android:layout_marginBottom="@dimen/margin_b_50"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/logPass"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logEmail"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/pass"/>
+
+    <EditText
+        android:id="@+id/logEmail"
+        android:layout_width="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logTitle"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_b_20"
+        android:layout_below="@id/logPass"
+        android:layout_centerHorizontal="true"
+        >
+        <Button
+            android:id="@+id/logButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log"
+            android:onClick="login"/>
+
+        <Button
+            android:id="@+id/regButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_b_20"
+            android:text="@string/reg"
+            android:onClick="to_reg"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

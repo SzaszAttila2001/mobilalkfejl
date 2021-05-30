@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887487293269",
+    "project_id": "androidcustomerapp-c8ac8",
+    "storage_bucket": "androidcustomerapp-c8ac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887487293269:android:f9533e6df09a485d71b1dc",
+        "android_client_info": {
+          "package_name": "ati.mobil.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887487293269-mag2v2ug9l80kgjpacfnurv2varkokuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ati.mobil.project",
+            "certificate_hash": "32f3b3e21f5608cf1c027bbc7b8d63bc3b958db2"
+          }
+        },
+        {
+          "client_id": "887487293269-9615j01udkoiv001dkad9r4s06v821ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcI2kVhZ0tpDOO9trVfYI4E33_Z57TvaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887487293269-9615j01udkoiv001dkad9r4s06v821ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
